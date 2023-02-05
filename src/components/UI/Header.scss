@@ -1,0 +1,56 @@
+#vector_back {
+  position: absolute;
+  width: 9.21px;
+  height: 16px;
+  left: 62px;
+  top: 57px;
+  background-image: url("../../assets/icons/vector.png");
+}
+
+#title {
+  position: absolute;
+  width: 179px;
+  height: 29px;
+  left: 149px;
+  top: 47px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+
+  /* off black */
+  color: #1a1a1a;
+}
+
+#page_number {
+  position: absolute;
+  width: 29px;
+  height: 24px;
+  left: 920px;
+  top: 49px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  /* identical to box height */
+  text-align: right;
+
+  /* off black */
+  color: #1a1a1a;
+}
+
+#line {
+  position: absolute;
+  width: 798px;
+  height: 0px;
+  left: 150px;
+  top: 88px;
+
+  /* off black */
+  border: 1px solid #1a1a1a;
+}

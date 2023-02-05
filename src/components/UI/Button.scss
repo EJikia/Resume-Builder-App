@@ -1,0 +1,35 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  position: absolute;
+  width: 151px;
+  height: 48px;
+  right: 972px;
+  bottom: 65px;
+
+  background: #6b40e3;
+  border-radius: 4px;
+}
+.next-btn-text {
+  margin: 0 auto;
+  width: 81px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  /* identical to box height */
+  letter-spacing: 0.08em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

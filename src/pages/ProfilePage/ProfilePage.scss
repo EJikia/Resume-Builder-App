@@ -1,0 +1,72 @@
+@mixin inputWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px 24px;
+  gap: 8px;
+  position: absolute;
+}
+
+#firstName_input {
+  @include inputWrapper;
+  width: 419px;
+  height: 122px;
+  left: calc(50% - 419px / 2 - 624.5px);
+  top: 157px;
+}
+
+#lastName_input {
+  @include inputWrapper;
+  width: 419px;
+  height: 122px;
+  left: calc(50% - 419px / 2 - 197.5px);
+  top: 157px;
+}
+
+#aboutme_wrapper {
+  @include inputWrapper;
+  width: 846px;
+  height: 148px;
+  left: calc(50% - 846px / 2 - 411px);
+  top: 393px;
+}
+
+#email_input {
+  @include inputWrapper;
+  width: 846px;
+  height: 122px;
+  left: calc(50% - 846px / 2 - 411px);
+  top: 558px;
+}
+
+#mobile_input {
+  @include inputWrapper;
+  width: 846px;
+  height: 122px;
+  left: calc(50% - 846px / 2 - 411px);
+  top: 693px;
+}
+
+#upload_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 12px;
+  gap: 10px;
+
+  position: absolute;
+  width: 107px;
+  height: 27px;
+  left: 401px;
+  top: 325px;
+
+  background: #0e80bf;
+  border-radius: 4px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}

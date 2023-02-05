@@ -1,0 +1,63 @@
+#background_img {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+#logo {
+  position: absolute;
+  left: 70px;
+  top: 25px;
+}
+#homepageLine {
+  position: absolute;
+  left: 70px;
+  right: 70px;
+  top: 89px;
+  border: 1px solid #1a1a1a;
+}
+#stamp {
+  position: absolute;
+  width: 299px;
+  height: 299px;
+  left: 1076px;
+  top: 473px;
+  mix-blend-mode: multiply;
+}
+#add_resume_btn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  position: absolute;
+  width: 464px;
+  height: 60px;
+  left: calc(50% - 464px / 2);
+  top: 513px;
+
+  /* off black */
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+#add_resume_btn_text {
+  margin: 0 auto;
+  padding: 19px 60px;
+  width: 212px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
